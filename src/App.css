@@ -1,0 +1,91 @@
+nav {
+  height: 15vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #1f4590, #fde49c);
+  color: #fff;
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navitems h2 {
+  font-size: 30px;
+}
+
+.navitems button {
+  width: 25%;
+  height: 10vh;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: #e99557;
+  font-family: serif;
+  font-size: 22px;
+  margin: auto 0px;
+  margin-top: 1rem;
+}
+
+.fetchbtn:hover {
+  background-color: #f0b666;
+  color:#fff;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom right, #f4e6c1, #e99557);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  color: whitesmoke;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile_cont {
+  border-radius: 10%;
+  background-image: radial-gradient(#e99557, #e99557);
+  margin: 5px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+  color: #fff;
+}
+.profile_cont p{
+  font-size: 20px;
+}
+.profile_cont h1{
+  color:black;
+}
+
+.profile_cont:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  background-color: #e99557;
+  color:#fff;
+  text-align: center;
+  border-radius: 30%;
+  height: 8vh;
+}
